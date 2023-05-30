@@ -39,9 +39,9 @@ import java.security.*;
 
 public class ImgEnDec{
     public static void main(String[] args) {
-        String inputImagePath = "C:\\Users\\spras\\OneDrive\\Desktop\\Testing\\img.png";
-        String encryptedImagePath = "C:\\Users\\spras\\OneDrive\\Desktop\\Testing\\img_encr.png";
-        String decryptedImagePath = "C:\\Users\\spras\\OneDrive\\Desktop\\Testing\\img_dec.png";
+        String inputImagePath = "____Image file path_______";
+        String encryptedImagePath = "_______Encrypted image file path______";
+        String decryptedImagePath = "_______Decrypted image file path______";
 
         try {
             ImageEncryption.encryptImage(inputImagePath, encryptedImagePath);
